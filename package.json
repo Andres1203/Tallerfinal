@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-ecomer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/style/input.css -o ./src/style/output.css --watch & npx live-server ./src"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "tailwindcss": "^4.1.16"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
